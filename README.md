@@ -6,7 +6,7 @@ You can find the challenge or task in the files
 
 ## Challenges
 
-- [Encrypt This](src/EncrptThis.kt)
+- [Encrypt This](src/EncryptThis.kt)
 - [Alternate Capitalization](src/AlternateCapitalization.kt)
 - [Counting Duplicates](src/CountingDuplicates.kt)
 - [Help the bookseller](src/HelpTheBookSeller.kt)

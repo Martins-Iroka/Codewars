@@ -10,4 +10,5 @@ You can find the challenge or task in the files
 - [Alternate Capitalization](src/AlternateCapitalization.kt)
 - [Counting Duplicates](src/CountingDuplicates.kt)
 - [Help the bookseller](src/HelpTheBookSeller.kt)
+- [Which are in?](src/WhichAreIn.kt)
 

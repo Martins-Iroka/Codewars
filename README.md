@@ -11,4 +11,5 @@ You can find the challenge or task in the files
 - [Counting Duplicates](src/CountingDuplicates.kt)
 - [Help the bookseller](src/HelpTheBookSeller.kt)
 - [Which are in?](src/WhichAreIn.kt)
+- [Find The Parity Outlier](src/FindTheParityOutlier.kt)
 

@@ -12,4 +12,5 @@ You can find the challenge or task in the files
 - [Help the bookseller](src/HelpTheBookSeller.kt)
 - [Which are in?](src/WhichAreIn.kt)
 - [Find The Parity Outlier](src/FindTheParityOutlier.kt)
+- [Stop ginnipS My sdorW](src/StopginnipSMysdorW.kt)
 

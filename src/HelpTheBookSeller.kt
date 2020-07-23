@@ -38,6 +38,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 private fun stockSummary(lstOfArt: Array<String>, lstOfCat: Array<String>): String {
 

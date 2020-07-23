@@ -24,6 +24,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 private fun findTheParityOutlier(integer: Array<Int>): Int {
 

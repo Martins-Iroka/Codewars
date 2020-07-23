@@ -19,6 +19,9 @@ fun main() {
     spinWords(s)
 }
 
+/**
+ * @author Me
+ */
 private fun spinWords(sentence: String): String {
 
     return sentence.split(" ").joinToString(" ") {

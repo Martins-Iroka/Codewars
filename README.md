@@ -13,4 +13,5 @@ You can find the challenge or task in the files
 - [Which are in?](src/WhichAreIn.kt)
 - [Find The Parity Outlier](src/FindTheParityOutlier.kt)
 - [Stop ginnipS My sdorW](src/StopginnipSMysdorW.kt)
+- [Delete Occurrences](src/DeleteOccurrences.kt)
 

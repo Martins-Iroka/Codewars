@@ -20,6 +20,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 fun capitalize(text: String): List<String> {
     val even = StringBuilder()

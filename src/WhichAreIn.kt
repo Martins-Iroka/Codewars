@@ -40,6 +40,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 private fun whichAreIn(a1: Array<String>, a2: Array<String>): Array<String> {
 

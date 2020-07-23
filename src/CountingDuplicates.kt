@@ -24,6 +24,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 fun duplicateCount(text: String): Int {
     val duplicates = arrayListOf<String>()

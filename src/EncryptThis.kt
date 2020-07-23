@@ -23,6 +23,8 @@ fun main() {
 
 /**
  * This is the original solution
+ *
+ * @author Me
  */
 fun encryptThis(text:String): String{
     val words = text.split(" ")

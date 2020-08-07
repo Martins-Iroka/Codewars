@@ -14,4 +14,6 @@ You can find the challenge or task in the files
 - [Find The Parity Outlier](src/FindTheParityOutlier.kt)
 - [Stop ginnipS My sdorW](src/StopginnipSMysdorW.kt)
 - [Delete Occurrences](src/DeleteOccurrences.kt)
+- [ConsecutiveStrings](src/ConsecutiveStrings.kt)
+- [AreTheyTheSame](src/AreTheyTheSame.kt)
 

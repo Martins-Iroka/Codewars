@@ -14,10 +14,8 @@
 fun main() {
     val consec = arrayOf("zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail")
 
-    val a = longestConsec(consec, 3)
+    longestConsec(consec, 3)
 
-
-    println(a)
 }
 
 fun longestConsec(strarr: Array<String>, k: Int): String {

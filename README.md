@@ -16,4 +16,7 @@ You can find the challenge or task in the files
 - [Delete Occurrences](src/DeleteOccurrences.kt)
 - [ConsecutiveStrings](src/ConsecutiveStrings.kt)
 - [AreTheyTheSame](src/AreTheyTheSame.kt)
+-[SumsOfParts](src/SumsOfParts.kt)
+-[FixStringCase](src/FixStringCase.kt)
+-[ReversedWords](src/ReversedWords.kt)
 

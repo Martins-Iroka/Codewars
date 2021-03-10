@@ -19,4 +19,5 @@ You can find the challenge or task in the files
 -[SumsOfParts](src/SumsOfParts.kt)
 -[FixStringCase](src/FixStringCase.kt)
 -[ReversedWords](src/ReversedWords.kt)
+  [Terminal Game Move Function](src/TerminalGameMoveFunction.kt)
 

@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * In this Kata, you will be given a string that may have mixed uppercase and lowercase letters and your task is to
  * convert that string to either lowercase only or uppercase only based on :
@@ -18,11 +20,11 @@ fun main() {
 
     when {
         uppNum > lowerNum -> {
-            println(a.toUpperCase())
+            println(a.uppercase(Locale.getDefault()))
         }
         uppNum < lowerNum -> {
-            println(a.toLowerCase())
+            println(a.lowercase(Locale.getDefault()))
         }
-        else -> println(a.toLowerCase())
+        else -> println(a.lowercase(Locale.getDefault()))
     }
 }

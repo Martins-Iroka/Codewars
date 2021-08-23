@@ -32,8 +32,8 @@ fun duplicateCount(text: String): Int {
     var duplicate = ""
 
     text.forEachIndexed { i, c ->
-        val ch = c.toLowerCase()
-        val count = text.drop(i + 1).plus(text.take(i)).count { it.toLowerCase() == ch }
+        val ch = c.lowercaseChar()
+        val count = text.drop(i + 1).plus(text.take(i)).count { it.lowercaseChar() == ch }
         if (count != 0) duplicate = ch.toString()
         if (duplicate.isNotEmpty() and !duplicates.contains(duplicate)) duplicates.add(duplicate)
     }
@@ -45,5 +45,5 @@ fun duplicateCount(text: String): Int {
  * This is a refactored solution
  */
 fun duplicateCountRefactored(text: String): Int {
-    return text.groupingBy { it.toLowerCase() }.eachCount().values.count { it > 1 }
+    return text.groupingBy { it.lowercaseChar() }.eachCount().values.count { it > 1 }
 }

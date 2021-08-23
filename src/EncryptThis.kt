@@ -43,10 +43,10 @@ fun encryptThis(text:String): String{
             encrypt.append(c)
             encrypt[1] = lastLetter
             encrypt[c.length.minus(1)] = secondLetter
-            e = encrypt.toString().replaceFirst(firstLetter.toString(), firstLetter.toInt().toString())
+            e = encrypt.toString().replaceFirst(firstLetter.toString(), firstLetter.code.toString())
             encrypt.clear()
         } else {
-            e = c.replace(firstLetter.toString(), firstLetter.toInt().toString())
+            e = c.replace(firstLetter.toString(), firstLetter.code.toString())
         }
         encryptedWord.append("$e ")
     }
@@ -59,6 +59,6 @@ fun encryptThis(text:String): String{
 fun encryptThisRefactored(text:String): String{
     return text.split(" ").joinToString(" ") {
         println(it)
-        it.first().toInt().toString() + it.drop(2).takeLast(1) + it.drop(2).dropLast(1) + it.drop(1).take(1)
+        it.first().code.toString() + it.drop(2).takeLast(1) + it.drop(2).dropLast(1) + it.drop(1).take(1)
     }
 }

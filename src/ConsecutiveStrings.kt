@@ -22,5 +22,5 @@ fun longestConsec(strarr: Array<String>, k: Int): String {
 
     val n = strarr.size
     return if ((n == 0) or (k > n) or (k <= 0)) ""
-    else strarr.toList().windowed(k).map { it.joinToString("") }.maxBy { it.length } ?: ""
+    else strarr.toList().windowed(k).map { it.joinToString("") }.maxByOrNull { it.length } ?: ""
 }

@@ -33,10 +33,10 @@ fun capitalize(text: String): List<String> {
     text.forEachIndexed { i, c ->
         even.append(
             when (i) {
-                0 -> c.toUpperCase()
+                0 -> c.uppercaseChar()
                 evenCount -> {
                     evenCount += 2
-                    c.toUpperCase()
+                    c.uppercaseChar()
                 }
                 else -> c
             }
@@ -47,7 +47,7 @@ fun capitalize(text: String): List<String> {
                 0 -> c
                 oddCount -> {
                     oddCount += 2
-                    c.toUpperCase()
+                    c.uppercaseChar()
                 }
                 else -> c
             }
@@ -60,5 +60,5 @@ fun capitalize(text: String): List<String> {
  * This is a refactored solution
  */
 fun capitalizeRefactored(text: String) = listOf(
-    text.mapIndexed {index, c -> if (index % 2 == 0) c.toUpperCase() else c }.fold("") {acc, c -> acc + c.toString() },
-    text.mapIndexed {index, c -> if (index % 2 != 0) c.toUpperCase() else c }.fold("") {acc, c -> acc + c.toString() })
+    text.mapIndexed {index, c -> if (index % 2 == 0) c.uppercaseChar() else c }.fold("") { acc, c -> acc + c.toString() },
+    text.mapIndexed {index, c -> if (index % 2 != 0) c.uppercaseChar() else c }.fold("") { acc, c -> acc + c.toString() })

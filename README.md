@@ -22,4 +22,5 @@ You can find the challenge or task in the files
 - [Terminal Game Move Function](src/TerminalGameMoveFunction.kt)
 - [The Feast of Many Beasts](src/TheFeastOfManyBeasts.kt)
 - [Vowel Count](src/VowelCount.kt)
+- [Even or Odd](src/EvenOrOdd.kt)
 

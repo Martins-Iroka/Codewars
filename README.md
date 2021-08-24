@@ -23,4 +23,6 @@ You can find the challenge or task in the files
 - [The Feast of Many Beasts](src/TheFeastOfManyBeasts.kt)
 - [Vowel Count](src/VowelCount.kt)
 - [Even or Odd](src/EvenOrOdd.kt)
+- [Watermelon](src/Watermelon.kt)
+- [Count of Positives & Sum of Negatives](src/CountOfPositivesSumOfNegatives.kt)
 

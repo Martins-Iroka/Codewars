@@ -26,4 +26,5 @@ You can find the challenge or task in the files
 - [Watermelon](src/Watermelon.kt)
 - [Count of Positives & Sum of Negatives](src/CountOfPositivesSumOfNegatives.kt)
 - [Even numbers in an array](src/EvenNumbersInAnArray.kt)
+- [Convert a Hex string to RGB](src/ConvertAHexStringToRGB.kt)
 

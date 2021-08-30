@@ -28,4 +28,5 @@ You can find the challenge or task in the files
 - [Even numbers in an array](src/EvenNumbersInAnArray.kt)
 - [Convert a Hex string to RGB](src/ConvertAHexStringToRGB.kt)
 - [Playing with digits](src/PlayingWithDigits.kt)
+- [Buying a car](src/BuyingACar.kt)
 

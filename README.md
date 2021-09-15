@@ -30,4 +30,5 @@ You can find the challenge or task in the files
 - [Playing with digits](src/PlayingWithDigits.kt)
 - [Buying a car](src/BuyingACar.kt)
 - [Simple beads count](src/SimpleBeadsCount.kt)
+- [Opposites Attract](src/OppositesAttract.kt)
 
